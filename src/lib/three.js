@@ -5,7 +5,7 @@ import Stats from "three/examples/jsm/libs/stats.module";
 
 export const three = (name) => {
 	const scene = new THREE.Scene();
-	scene.add(new THREE.AxesHelper(5));
+	// scene.add(new THREE.AxesHelper(5));
 	scene.background = new THREE.Color("#c7ccc6");
 
 	const webGL = {
